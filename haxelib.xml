@@ -1,5 +1,5 @@
-<project name="tjson" url="https://github.com/martamius/TJSON" license="BSD">
-    <user name="martamius"/>
+<project name="tjson" url="https://github.com/MrzkTeam/tjson" license="MIT">
+    <user name="MrzkTeam"/>
     <tag v="json"/>
     <tag v="tjson"/>
     <tag v="tolerant"/>
@@ -8,5 +8,5 @@
     <tag v="js"/>
     <tag v="cross"/>
     <description>Tolerant JSON parser and encoder. Unserializes and serializes JSON data, but without all the strictness of standard JSON parsers. Supports multi and single-line comments, keys without quotes, and single quotes.</description>
-    <version name="1.2.3">Bug fixes</version>
+    <version name="1.0.0">Bug fixes</version>
 </project>
