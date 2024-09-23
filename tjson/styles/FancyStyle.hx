@@ -15,19 +15,19 @@ class FancyStyle implements EncodeStyle
 		return "{\n";
 	}
 	public function endObject(depth:Int):String{
-		return "\n"+charTimesN(depth)+"}";
+		return "\n" + charTimesN(depth) + "}";
 	}
 	public function beginArray(depth:Int):String{
 		return "[\n";
 	}
 	public function endArray(depth:Int):String{
-		return "\n"+charTimesN(depth)+"]";
+		return "\n" + charTimesN(depth) + "]";
 	}
 	public function firstEntry(depth:Int):String{
-		return charTimesN(depth+1)+' ';
+		return charTimesN(depth + 1) + ' ';
 	}
 	public function entrySeperator(depth:Int):String{
-		return "\n"+charTimesN(depth+1)+",";
+		return "\n" + charTimesN(depth + 1) + ",";
 	}
 	public function keyValueSeperator(depth:Int):String{
 		return " : ";
