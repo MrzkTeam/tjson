@@ -233,9 +233,14 @@ class TJSONParser
                             else throw "Not a hex digit";
                         }
                         
+						#if (!neko)
 						final utf = new UnicodeString(Std.string(hexValue));
 						symbol += utf.toString();
-                        
+						#else
+						final utf = Std.string(hexValue);
+						symbol += utf.toString();
+                        #end
+
 						continue;
 					}
 
